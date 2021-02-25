@@ -14,9 +14,20 @@ html, body {
 }
 .title {
     padding-top: 50px;
+
+}
+.subtitle {
+    padding-right: 25px;
+
 }
 .container-row {
-    padding-top: 200px;
+    padding: 75px;
+    background: #E8E8E8;
+    width: 100%;
+}
+#education {
+    padding-top: 250px;
+
 }
 .container {
     padding-top: 25px;
