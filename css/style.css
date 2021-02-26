@@ -3,7 +3,7 @@ html, body {
     margin: 0;
 }
 
-#header{
+#header {
     background: #808080;
     padding: 15px;
     position: fixed;
@@ -12,31 +12,41 @@ html, body {
     top: 0;
     z-index: 1000;
 }
+
 .title {
     padding-top: 50px;
 
 }
-.subtitle {
-    padding-right: 25px;
 
-}
-.container-row {
-    padding: 75px;
-    background: #E8E8E8;
-    width: 100%;
-}
-#education {
-    padding-top: 250px;
-
-}
-.container {
-    padding-top: 25px;
+.intro-block
+{
+    position: relative;
+    background-color: #e8e8e8;
+    margin: 30px 35px 30px;
+    padding: 70px 25px 40px;
+    box-shadow: 10px 10px 18px -5px rgba(0,0,0,0.53);
 }
 
-.site-footer  {
+.intro-block:hover, .intro-block.active
+{
+    background: #808080;
+    box-shadow: 10px 10px 18px -5px rgba(0,0,0,0.53);
+}
+.intro-block h3
+{
+    font-size: 18px;
+    color: black;
+    font-weight: 700;
+    margin-bottom: 50px;
+    margin-top: -30px;
+}
+
+.site-footer {
     background: #808080;
     flex-shrink: 0; /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
-    padding: 20px;
+    padding: 25px;
+    text-align: left;
+
     width: 100%;
     left: 0;
     position: fixed;
